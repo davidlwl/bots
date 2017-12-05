@@ -3,7 +3,7 @@ from telegram.ext import Updater
 import logging
 from telegram.ext import CommandHandler
 from telegram.ext import MessageHandler, Filters
-import time
+
 from telegram import InlineQueryResultArticle, ChatAction, InputTextMessageContent
 import requests
 from bs4 import BeautifulSoup
@@ -12,14 +12,14 @@ import datetime
 import emoji
 import urllib.request
 import json
-import logging
+
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Updater, CommandHandler, CallbackQueryHandler
 from telegram import ReplyKeyboardMarkup, ReplyKeyboardRemove
 import time
 from nltk.tokenize import sent_tokenize, word_tokenize
 from nltk.corpus import stopwords
-import webbrowser
+
 
 bot = telegram.Bot(token='343469925:AAHrvVL-rW3ixMG95u2-ehzPus5k5qmvNTE')
 updater = Updater(token='343469925:AAHrvVL-rW3ixMG95u2-ehzPus5k5qmvNTE')
